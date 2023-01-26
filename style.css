@@ -215,3 +215,70 @@ Section-2 Cover
     max-width: 36rem;
     margin: 1.6025rem auto;
 }
+
+/*
+*******************
+Section-3 About-me
+********************
+*/
+
+.about_wrapper .paragraph p{
+    color: var(--text-gray);
+}
+
+.about_wrapper ul.nav-pills {
+    border:1px solid var(--white-color);
+    border-radius: 50px;
+}
+.about_wrapper ul li .nav-link{
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 500;
+    transition:all 0.45s cubic-bezier(0,0,0.2,1);
+    color: var(--white-color);
+    border: 0;
+}
+.about_wrapper ul li .nav-link.active{
+    background-color: var(--primary-color);
+}
+.about_wrapper .single-progress{
+    margin-top: 26px;
+    position: relative;
+    overflow: hidden;
+}
+.about_wrapper .single-progress .progress{
+    height: 4px;
+    border-radius: 4px;
+    box-shadow: none;
+    background-color: var(--white-color);
+    overflow: visible;
+}
+.about_wrapper .single-progress .progress-bar{
+    background-color: var(--primary-color);
+}
+.about_wrapper .single-progress h6{
+    text-align: left;
+    color: var(--text-gray);
+}
+.about_wrapper .single-progress .label{
+    position: absolute;
+    right:0;
+    top:0;
+    color: var(--text-gray);
+    font-size: 15px;
+}
+.about_wrapper .tab-pane li{
+    color: var(--gray-color);
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: 300;
+    list-style: none;
+}
+.about_wrapper .tab-pane li a{
+    font-weight: 500;
+    display: block;
+    color: var(--text-gray);
+}
+.about_wrapper .tab-pane li{
+    color: var(--text-gray);
+}
