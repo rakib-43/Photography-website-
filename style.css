@@ -282,3 +282,40 @@ Section-3 About-me
 .about_wrapper .tab-pane li{
     color: var(--text-gray);
 }
+
+/*
+*******************
+Section-4 Gallery
+********************
+*/
+.gallery .banner-info{
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    bottom: 30px;
+    padding: 0 15px;
+    z-index: 9;
+}
+
+.gallery .card-banner .card-thumb,
+.products .item-product{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.gallery .card-banner .card-thumb img,
+.products .item-product img{
+    transition: all .5s ease-out 0s;
+}
+
+.gallery .card-banner .card-thumb img:hover,
+.products .item-product img:hover{
+    transform: scale(1.2);
+    opacity: 0.6;
+}
+.gallery .banner-info p{
+    color: var(--text-gray);
+}
+.gallery p{
+    color: var(--text-gray);
+}
