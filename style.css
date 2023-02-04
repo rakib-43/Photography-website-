@@ -347,3 +347,16 @@ Section-5 Contact
 .contact_wrapper .call_details a{
     color: var(--text-gray);
 }
+/*
+*******************
+Section-6 Footer
+********************
+*/
+.footer .footer-social a{
+    font-size: 1.5rem;
+    color: var(--white-color);
+    padding: 0 7px;
+}
+.footer .footer-social a:hover{
+    color: var(--primary-color);
+}
