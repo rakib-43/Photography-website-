@@ -17,6 +17,23 @@
         padding-bottom: 1.25rem;
     }
 }
+
+@media(max-width:1284px){
+    /* Section-1 Cover carousel caption*/
+       #home .carousel-caption{
+           max-width: 30rem;
+           margin: 1.00rem auto;
+           top: 12rem;
+           left: -19rem;
+       }
+       #home .carousel-caption .pacifio-text{
+           max-width: 30rem;
+           margin: 1.00rem auto;
+           top: 12rem;
+           left: -19rem;
+       }
+}
+
 @media(max-width:1095px){
  /* Section-1 Cover carousel caption*/
     #home .carousel-caption{
@@ -32,6 +49,22 @@
         left: -19rem;
     }
 }
+@media(max-width:1024px){
+    /* Section-1 Cover carousel caption*/
+       #home .carousel-caption{
+           max-width: 30rem;
+           margin: 1.00rem auto;
+           top: 12rem;
+           left: -19rem;
+       }
+       #home .carousel-caption span{
+           max-width: 30rem;
+           margin: 1.00rem auto;
+           top: 12rem;
+           left: -19rem;
+           font-size: 3rem;
+       }
+   }
 
 @media(max-width:890px){
     /* Section-1 Cover carousel caption*/
@@ -42,6 +75,13 @@
     #home .carousel-caption h1{
         font-size: 1.5rem;   
     }
+    #home .carousel-caption span{
+        max-width: 30rem;
+        margin: 1.00rem auto;
+        top: 12rem;
+        left: -19rem;
+        font-size: 2.5rem;
+    }
 }
 @media(max-width:756px){
      /* Section-1 Cover carousel caption*/
@@ -49,6 +89,13 @@
         max-width: 19rem;
         top: 10rem;
         left: -15rem;
+    }
+    #home .carousel-caption span{
+        max-width: 30rem;
+        margin: 1.00rem auto;
+        top: 12rem;
+        left: -19rem;
+        font-size: 2.3rem;
     }
 }
 @media(max-width:632px){
@@ -59,6 +106,15 @@
         left: -12rem;
         font-size: 15px;
      }
+}
+@media(max-width:610px){
+    #home .carousel-caption span{
+        max-width: 30rem;
+        margin: 1.00rem auto;
+        top: 12rem;
+        left: -19rem;
+        font-size: 2.2rem;
+    }
 }
 @media(max-width:568px){
     /* Section-1 Cover carousel caption*/
@@ -91,10 +147,17 @@
     /* Section-1 Cover carousel caption*/
     #home .carousel-caption{
        max-width: 14rem;
-       top: 3rem;
+       top: 3.6rem;
        left: -7rem;
        font-size: 11px;
     } 
+    #home .carousel-caption span{
+        max-width: 30rem;
+        margin: 1.00rem auto;
+        top: 12rem;
+        left: -19rem;
+        font-size: 1.8rem;
+    }
 }
 @media(max-width:386px){
     /* Section-1 Cover carousel caption*/
